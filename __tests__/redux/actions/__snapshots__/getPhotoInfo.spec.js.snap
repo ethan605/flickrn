@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redux/actions/getPhotoInfo error 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "request": Object {
+        "params": Object {
+          "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+          "format": "json",
+          "method": "flickr.photos.getInfo",
+          "nojsoncallback": 1,
+          "per_page": 20,
+          "photo_id": 123,
+          "secret": "random_secret_xxx",
+        },
+      },
+    },
+    "type": "flickr/GET_PHOTO_INFO",
+  },
+  Object {
+    "error": Object {
+      "message": "Random flickr.photos.getInfo error",
+      "response": Object {
+        "data": Object {
+          "code": 123,
+          "message": "Random flickr.photos.getInfo error",
+          "stat": "fail",
+        },
+      },
+    },
+    "meta": Object {
+      "previousAction": Object {
+        "payload": Object {
+          "request": Object {
+            "params": Object {
+              "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+              "format": "json",
+              "method": "flickr.photos.getInfo",
+              "nojsoncallback": 1,
+              "per_page": 20,
+              "photo_id": 123,
+              "secret": "random_secret_xxx",
+            },
+          },
+        },
+        "type": "flickr/GET_PHOTO_INFO",
+      },
+    },
+    "type": "flickr/GET_PHOTO_INFO:ERROR",
+  },
+]
+`;
+
+exports[`redux/actions/getPhotoInfo success 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "request": Object {
+        "params": Object {
+          "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+          "format": "json",
+          "method": "flickr.photos.getInfo",
+          "nojsoncallback": 1,
+          "per_page": 20,
+          "photo_id": 123,
+          "secret": "random_secret_xxx",
+        },
+      },
+    },
+    "type": "flickr/GET_PHOTO_INFO",
+  },
+  Object {
+    "meta": Object {
+      "previousAction": Object {
+        "payload": Object {
+          "request": Object {
+            "params": Object {
+              "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+              "format": "json",
+              "method": "flickr.photos.getInfo",
+              "nojsoncallback": 1,
+              "per_page": 20,
+              "photo_id": 123,
+              "secret": "random_secret_xxx",
+            },
+          },
+        },
+        "type": "flickr/GET_PHOTO_INFO",
+      },
+    },
+    "payload": Object {
+      "photo": Object {
+        "comments": Object {
+          "_content": "0",
+        },
+        "dates": Object {
+          "lastupdate": "1521094692",
+          "posted": "1521085336",
+          "taken": "2018-03-15 06:28:31",
+          "takengranularity": 0,
+          "takenunknown": "1",
+        },
+        "dateuploaded": "1521085336",
+        "description": Object {
+          "_content": "Hair : #Tableau Vivant  \\\\\\\\ Silvana hair <a href=\\"https://maps.secondlife.com/secondlife/8 8/108/194/1085\\" rel=\\"nofollow\\">Collabor88</a>
+
+Outfit :   #New in <a href=\\"http://maps.secondlife.com/secondlife/kustom9/124/120/22\\" rel=\\"nofollow\\">kustom9 </a>
+                 #=Zenith= Girl Heart Uniforms gacha 
+                 =Zenith=Mobile neck case gacha
+                 =Zenith=Leather Star Boots with Sock gacha 
+    
+backpack :  =Zenith=Cat Backpack (all Color) -RARE gacha 
+
+ Cat : #JIAN Chubby Cat Bird Bus
+
+Dogs : #+Half-Deer+  Corgi Puppy - Walking Companion RARE
+            +Half-Deer+    Corgi Puppy - Cuddle Companion RARE
+",
+        },
+        "editability": Object {
+          "canaddmeta": 0,
+          "cancomment": 0,
+        },
+        "farm": 5,
+        "id": "40107995774",
+        "isfavorite": 0,
+        "license": "0",
+        "media": "photo",
+        "notes": Object {
+          "note": Array [],
+        },
+        "originalformat": "png",
+        "originalsecret": "0e602e4261",
+        "owner": Object {
+          "iconfarm": 5,
+          "iconserver": "4798",
+          "location": "",
+          "nsid": "152508136@N06",
+          "path_alias": null,
+          "realname": "jodi H",
+          "username": "jody2015SL",
+        },
+        "people": Object {
+          "haspeople": 0,
+        },
+        "publiceditability": Object {
+          "canaddmeta": 0,
+          "cancomment": 1,
+        },
+        "rotation": 0,
+        "safety_level": "0",
+        "secret": "7ed5905c16",
+        "server": "4778",
+        "tags": Object {
+          "tag": Array [],
+        },
+        "title": Object {
+          "_content": "🐱🐶🐶 💖",
+        },
+        "urls": Object {
+          "url": Array [
+            Object {
+              "_content": "https://www.flickr.com/photos/152508136@N06/40107995774/",
+              "type": "photopage",
+            },
+          ],
+        },
+        "usage": Object {
+          "canblog": 0,
+          "candownload": 1,
+          "canprint": 0,
+          "canshare": 1,
+        },
+        "views": "244",
+        "visibility": Object {
+          "isfamily": 0,
+          "isfriend": 0,
+          "ispublic": 1,
+        },
+      },
+    },
+    "type": "flickr/GET_PHOTO_INFO:SUCCESS",
+  },
+]
+`;

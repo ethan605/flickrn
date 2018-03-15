@@ -1,0 +1,3 @@
+rootProject.name = 'FlickRN'
+
+include ':app'

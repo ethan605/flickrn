@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redux/reducers/photoInfo error 1`] = `
+Object {
+  "data": undefined,
+  "errorMessage": "Random flickr.photos.getInfo error",
+  "loading": false,
+}
+`;
+
+exports[`redux/reducers/photoInfo refresh 1`] = `
+Object {
+  "data": undefined,
+  "errorMessage": undefined,
+  "loading": true,
+}
+`;
+
+exports[`redux/reducers/photoInfo start 1`] = `
+Object {
+  "data": undefined,
+  "errorMessage": undefined,
+  "loading": true,
+}
+`;
+
+exports[`redux/reducers/photoInfo success 1`] = `
+Object {
+  "data": PhotoInfo {
+    "description": Object {
+      "_content": "Hair : #Tableau Vivant  \\\\\\\\ Silvana hair <a href=\\"https://maps.secondlife.com/secondlife/8 8/108/194/1085\\" rel=\\"nofollow\\">Collabor88</a>
+
+Outfit :   #New in <a href=\\"http://maps.secondlife.com/secondlife/kustom9/124/120/22\\" rel=\\"nofollow\\">kustom9 </a>
+                 #=Zenith= Girl Heart Uniforms gacha 
+                 =Zenith=Mobile neck case gacha
+                 =Zenith=Leather Star Boots with Sock gacha 
+    
+backpack :  =Zenith=Cat Backpack (all Color) -RARE gacha 
+
+ Cat : #JIAN Chubby Cat Bird Bus
+
+Dogs : #+Half-Deer+  Corgi Puppy - Walking Companion RARE
+            +Half-Deer+    Corgi Puppy - Cuddle Companion RARE
+",
+    },
+    "farm": 5,
+    "id": "40107995774",
+    "originalformat": "png",
+    "originalsecret": "0e602e4261",
+    "owner": Object {
+      "iconfarm": 5,
+      "iconserver": "4798",
+      "location": "",
+      "nsid": "152508136@N06",
+      "path_alias": null,
+      "realname": "jodi H",
+      "username": "jody2015SL",
+    },
+    "secret": "7ed5905c16",
+    "server": "4778",
+    "title": Object {
+      "_content": "🐱🐶🐶 💖",
+    },
+  },
+  "errorMessage": undefined,
+  "loading": false,
+}
+`;

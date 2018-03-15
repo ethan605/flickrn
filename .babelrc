@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "lodash",
+    "transform-decorators-legacy"
+  ],
+  "presets": [
+    "react-native"
+  ]
+}

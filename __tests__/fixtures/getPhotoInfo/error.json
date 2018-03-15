@@ -1,0 +1,5 @@
+{
+  "stat": "fail",
+  "code": 123,
+  "message": "Random flickr.photos.getInfo error"
+}

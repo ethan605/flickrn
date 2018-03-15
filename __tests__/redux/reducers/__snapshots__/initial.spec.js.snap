@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redux/reducers/initial photoInfo 1`] = `
+Object {
+  "data": undefined,
+  "errorMessage": undefined,
+  "loading": false,
+}
+`;
+
+exports[`redux/reducers/initial photos 1`] = `
+Object {
+  "currentPage": 1,
+  "data": Array [],
+  "errorMessage": undefined,
+  "hasMore": true,
+  "loading": false,
+}
+`;

@@ -1,0 +1,6 @@
+{
+  "flickr": {
+    "apiKey": "92ab2a894f0effc28f920362ff52fc2d",
+    "endpoint": "https://api.flickr.com/services/rest"
+  }
+}

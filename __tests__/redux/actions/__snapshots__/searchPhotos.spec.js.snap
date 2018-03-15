@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redux/actions/searchPhotos error 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "request": Object {
+        "params": Object {
+          "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+          "format": "json",
+          "method": "flickr.photos.search",
+          "nojsoncallback": 1,
+          "page": 1,
+          "per_page": 20,
+          "text": "random keyword",
+        },
+      },
+    },
+    "type": "flickr/SEARCH_PHOTOS",
+  },
+  Object {
+    "error": Object {
+      "message": "Random flickr.photos.search error",
+      "response": Object {
+        "data": Object {
+          "code": 123,
+          "message": "Random flickr.photos.search error",
+          "stat": "fail",
+        },
+      },
+    },
+    "meta": Object {
+      "previousAction": Object {
+        "payload": Object {
+          "request": Object {
+            "params": Object {
+              "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+              "format": "json",
+              "method": "flickr.photos.search",
+              "nojsoncallback": 1,
+              "page": 1,
+              "per_page": 20,
+              "text": "random keyword",
+            },
+          },
+        },
+        "type": "flickr/SEARCH_PHOTOS",
+      },
+    },
+    "type": "flickr/SEARCH_PHOTOS:ERROR",
+  },
+]
+`;
+
+exports[`redux/actions/searchPhotos success 1`] = `
+Array [
+  Object {
+    "payload": Object {
+      "request": Object {
+        "params": Object {
+          "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+          "format": "json",
+          "method": "flickr.photos.search",
+          "nojsoncallback": 1,
+          "page": 1,
+          "per_page": 20,
+          "text": "random keyword",
+        },
+      },
+    },
+    "type": "flickr/SEARCH_PHOTOS",
+  },
+  Object {
+    "meta": Object {
+      "previousAction": Object {
+        "payload": Object {
+          "request": Object {
+            "params": Object {
+              "api_key": "92ab2a894f0effc28f920362ff52fc2d",
+              "format": "json",
+              "method": "flickr.photos.search",
+              "nojsoncallback": 1,
+              "page": 1,
+              "per_page": 20,
+              "text": "random keyword",
+            },
+          },
+        },
+        "type": "flickr/SEARCH_PHOTOS",
+      },
+    },
+    "payload": Object {
+      "photos": Object {
+        "page": 1,
+        "pages": 39955,
+        "perpage": 5,
+        "photo": Array [
+          Object {
+            "farm": 5,
+            "id": "40107995774",
+            "isfamily": 0,
+            "isfriend": 0,
+            "ispublic": 1,
+            "owner": "152508136@N06",
+            "secret": "7ed5905c16",
+            "server": "4778",
+            "title": "🐱🐶🐶 💖",
+          },
+          Object {
+            "farm": 5,
+            "id": "26945278248",
+            "isfamily": 0,
+            "isfriend": 0,
+            "ispublic": 1,
+            "owner": "128512949@N07",
+            "secret": "9d9fc82c4c",
+            "server": "4777",
+            "title": "@Cgshapes , @Ella , @Fashionnatic , @Serendipity , @Armonia",
+          },
+          Object {
+            "farm": 5,
+            "id": "40772774262",
+            "isfamily": 0,
+            "isfriend": 0,
+            "ispublic": 1,
+            "owner": "52361229@N06",
+            "secret": "24942a6a29",
+            "server": "4771",
+            "title": "These Guys starting 3 days early.....disclaimer: no pets or dogs were hurt or got intoxicated during the making of this image.",
+          },
+          Object {
+            "farm": 5,
+            "id": "38999884280",
+            "isfamily": 0,
+            "isfriend": 0,
+            "ispublic": 1,
+            "owner": "162254693@N02",
+            "secret": "0e07ee8b6e",
+            "server": "4784",
+            "title": "Corgi king",
+          },
+          Object {
+            "farm": 5,
+            "id": "39914583135",
+            "isfamily": 0,
+            "isfriend": 0,
+            "ispublic": 1,
+            "owner": "113454068@N06",
+            "secret": "25e007537b",
+            "server": "4783",
+            "title": "Sleeping Chorgi",
+          },
+        ],
+        "total": "199773",
+      },
+    },
+    "type": "flickr/SEARCH_PHOTOS:SUCCESS",
+  },
+]
+`;

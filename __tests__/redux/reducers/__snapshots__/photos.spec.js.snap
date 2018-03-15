@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`redux/reducers/photos error 1`] = `
+Object {
+  "currentPage": 1,
+  "data": Array [],
+  "errorMessage": "Random flickr.photos.search error",
+  "hasMore": false,
+  "loading": false,
+}
+`;
+
+exports[`redux/reducers/photos refresh 1`] = `
+Object {
+  "currentPage": 1,
+  "data": Array [
+    Photo {
+      "farm": 5,
+      "id": "40107995774",
+      "owner": "152508136@N06",
+      "secret": "7ed5905c16",
+      "server": "4778",
+      "title": "🐱🐶🐶 💖",
+    },
+    Photo {
+      "farm": 5,
+      "id": "26945278248",
+      "owner": "128512949@N07",
+      "secret": "9d9fc82c4c",
+      "server": "4777",
+      "title": "@Cgshapes , @Ella , @Fashionnatic , @Serendipity , @Armonia",
+    },
+    Photo {
+      "farm": 5,
+      "id": "40772774262",
+      "owner": "52361229@N06",
+      "secret": "24942a6a29",
+      "server": "4771",
+      "title": "These Guys starting 3 days early.....disclaimer: no pets or dogs were hurt or got intoxicated during the making of this image.",
+    },
+    Photo {
+      "farm": 5,
+      "id": "38999884280",
+      "owner": "162254693@N02",
+      "secret": "0e07ee8b6e",
+      "server": "4784",
+      "title": "Corgi king",
+    },
+    Photo {
+      "farm": 5,
+      "id": "39914583135",
+      "owner": "113454068@N06",
+      "secret": "25e007537b",
+      "server": "4783",
+      "title": "Sleeping Chorgi",
+    },
+  ],
+  "errorMessage": undefined,
+  "hasMore": true,
+  "loading": true,
+}
+`;
+
+exports[`redux/reducers/photos start 1`] = `
+Object {
+  "currentPage": 1,
+  "data": Array [],
+  "errorMessage": undefined,
+  "hasMore": true,
+  "loading": true,
+}
+`;
+
+exports[`redux/reducers/photos success 1`] = `
+Object {
+  "currentPage": 1,
+  "data": Array [
+    Photo {
+      "farm": 5,
+      "id": "40107995774",
+      "owner": "152508136@N06",
+      "secret": "7ed5905c16",
+      "server": "4778",
+      "title": "🐱🐶🐶 💖",
+    },
+    Photo {
+      "farm": 5,
+      "id": "26945278248",
+      "owner": "128512949@N07",
+      "secret": "9d9fc82c4c",
+      "server": "4777",
+      "title": "@Cgshapes , @Ella , @Fashionnatic , @Serendipity , @Armonia",
+    },
+    Photo {
+      "farm": 5,
+      "id": "40772774262",
+      "owner": "52361229@N06",
+      "secret": "24942a6a29",
+      "server": "4771",
+      "title": "These Guys starting 3 days early.....disclaimer: no pets or dogs were hurt or got intoxicated during the making of this image.",
+    },
+    Photo {
+      "farm": 5,
+      "id": "38999884280",
+      "owner": "162254693@N02",
+      "secret": "0e07ee8b6e",
+      "server": "4784",
+      "title": "Corgi king",
+    },
+    Photo {
+      "farm": 5,
+      "id": "39914583135",
+      "owner": "113454068@N06",
+      "secret": "25e007537b",
+      "server": "4783",
+      "title": "Sleeping Chorgi",
+    },
+  ],
+  "errorMessage": undefined,
+  "hasMore": true,
+  "loading": false,
+}
+`;
